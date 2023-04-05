@@ -18,4 +18,15 @@ Requirements:<br>
 	~ Import table dump: [metal_bands.sql.zip](./metal_bands.sql.zip)<br>
 	~ Column names must be ***origin** and ***nb_fans***
 
-#
+# [3-glam_rock.sql](./3-glam_rock.sql)
+A script that lists all bands with ***Glan rock*** as their main style, ranked by their longevity<br>
+Requirements:<br>
+	~ Import table dump [metal_bands.sql.zip](./metal_bands.sql.zip)<br>
+	~ Column names must be ***band_name*** and ***lifespan*** in years<br>
+	~ Attributes ***formed*** and ***split*** for computing the ***lifespan***
+
+# [4-store.sql](./4-store.sql)
+A script that creates a trigger that decreases the quantity of an item after adding a new order.
+
+# [5-valid_email.sql](./5-valid_email.sql)
+A script that creates a trigger that resets attribute ***valid_email*** only when the ***email*** has been changed.
