@@ -11,3 +11,11 @@ A sql script that adds the following attribute in addition to the ones in [0-uni
 	~ country, enumeration of countries:<br>
 		~ US, CO and TN, never null<br>
 		~ (= default will be the first element of the enumeration, here US)
+
+# [2-fans.sql](./2-fans.sql)
+A script that ranks country origin brands, ordered by the number of non unique fans<br>
+Requirements:<br>
+	~ Import table dump: [metal_bands.sql.zip](./metal_bands.sql.zip)<br>
+	~ Column names must be ***origin** and ***nb_fans***
+
+#
