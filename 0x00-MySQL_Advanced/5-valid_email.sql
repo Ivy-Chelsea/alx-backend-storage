@@ -1,6 +1,6 @@
 -- Script that creates trigger that sets attribute valid_email
 -- only when email has been changed
-DELIMITER //;
+DELIMITER // ;
 CREATE TRIGGER validate BEFORE UPDATE
 ON users
 FOR EACH ROW
