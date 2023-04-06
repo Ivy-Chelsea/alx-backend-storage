@@ -1,7 +1,5 @@
-/*
-Script that creates a stored procedure
-That computes and stores average score for a student
-*/
+-- Script that creates a stored procedure
+-- That computes and stores average score for a student
 drop procedure IF EXISTS ComputeAverageScoreForUser;
 DELIMITER $$ ;
 CREATE PROCEDURE ComputeAverageScoreForUser(
