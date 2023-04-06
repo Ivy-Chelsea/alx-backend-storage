@@ -1,7 +1,5 @@
-/*
-Script that contains a stored procedure ComputerAverageWeightedScoreForUser
-That computes and stores average weighted score for a student
-*/
+-- Script that contains a stored procedure ComputerAverageWeightedScoreForUser
+-- That computes and stores average weighted score for a student
 DROP procedure IF EXISTS ComputeAverageWeightedScoreForUser;
 DELIMITER |
 CREATE PROCEDURE ComputeAverageWeightedScoreForUser (
