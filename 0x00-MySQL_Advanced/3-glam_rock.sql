@@ -2,5 +2,5 @@
 -- Ranked by their longevity
 SELECT band_name, COALESCE(split, 2020) - formed as lifespan
 FROMM metal_bands
-WHERE style LIKE "Glam rock"
+WHERE style LIKE '%Glam rock%'
 ORDER BY lifespan DESC;
