@@ -1,8 +1,6 @@
-/*
-Script that creates function SAfeDiv
-That divides the first by the second number
-Or returns 0 if the second number is equal to 0
-*/
+-- Script that creates function SAfeDiv
+-- That divides the first by the second number
+-- Or returns 0 if the second number is equal to 0
 DELIMITER $$ ;
 CREATE FUNCTION SafeDiv(
 	a INT,
