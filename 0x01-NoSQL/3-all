@@ -1,0 +1,3 @@
+// lists docs inn collection school
+
+db.school.find()
