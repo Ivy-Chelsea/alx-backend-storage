@@ -14,3 +14,6 @@ File | Description
 [10-update_topics.py](./10-update_topics.py) | A python script that changes all topics of a school document based on the name.<br>~ ***name(string)*** is the school name to update.<br>~ ***topics(list of strings)*** is the list of topics approached in the school.
 [11-schools_by_topic.py](./11-schools_by_topic.py) | A python script that returns the list of school having a specific topic which is a string.
 [12-log_stats.py](./12-log_stats.py) | A python script that provides some stats about Nginx logs stored in MongoDB.
+[100-find](./100-find) | Script that lists all documents with name starting with ***Holberton*** in the collection ***school***.
+[101-students.py](./101-students.py) | Python script that returns all students sorted by average score. Average score is part of each item returns with key ***averageScore***
+[102-log_stats.py](./102-log_stats.py) | Script conatining top 10 of the most present IPs in the collection ***nginx*** of the database ***logs***
