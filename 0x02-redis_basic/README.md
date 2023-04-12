@@ -18,7 +18,7 @@ Script that:<br>
 ~ Executes the wrapped function to retrieve the output. Stores the output uing ***rpush*** in the ***"...:outputs"*** list, then returns the output.<br>
 ~ Implements a ***replay*** function to display the history of calls of a particular function.
 
-## [webb.py](./web.py)
+## [web.py](./web.py)
 Script that:
 ~ Implements a ***get_page*** function. The core of the function uses the ***requests*** module to obtain the HTML content of a particular URL and returns it.<br>
 ~ The function tracks how many times a particular URL was accessed in the key ***count:{url}*** and cache the result with an expiration time of 10 seconds.
