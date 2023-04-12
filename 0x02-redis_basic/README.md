@@ -1,6 +1,6 @@
-## REDIS BASICS
+# REDIS BASICS
 
-# [exercise.py](./exercise.py)
+## [exercise.py](./exercise.py)
 Script that:<br>
 ~ Creates a ***Cache*** class. In the ***__init__*** method, stores an instance of the Redis client as private variable named ***_redis*** using ***redis.Redis()*** and flush the instance using ***flushdb***.<br>
 ~ Creates ***store*** method that takes ***data*** argument and returns a string. The method generates a random key, stores the input data in Redis using the random key and return the key.<br>
